@@ -168,3 +168,27 @@
 #for i in range(1,len(a)):
 #    if a[i-1]*a[i]>0:
 #        print(a[i-1],a[1])
+
+#a = [int(i) for i in input('Введите числа:\n').split()]
+#chisla = 0
+#for i in range(1,len(a)-1):
+#    if a[i-1]<a[i]>a[i+1]:
+#        chisla += 1
+#        print(chisla)
+
+#max = 0
+#a = [int(i) for i in input('Введите любые числа:\n').split()]
+#for i in range(1,len(a)):
+#    if a[i]>a[max]:
+#        max = i
+#print(a[max])
+
+#a = [int(i) for i in input('Введите рост людей:\n').split()]
+#x = int(input('Введите рост Пети'))
+#pos = 0
+#while pos < len(a) and a[pos] >= x:
+#    pos += 1
+#print(pos + 1)
+
+#print(len(set(input('Введите числа:\n').split())))
+
