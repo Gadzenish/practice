@@ -192,3 +192,17 @@
 
 #print(len(set(input('Введите числа:\n').split())))
 
+import random
+s = True
+print('Добро пожаловать в игру "Русская рулетка"')
+name = input('Введи своё имя')
+print("\nНу что же," + name + ",Мы начинаем...")
+while s:
+        a = (0,0,0,1,0,0)
+        shot = random.choice(a)
+        if shot == 1:
+            print('Упс,ты погиб')
+            break
+        else:
+            print('Тебе удалось выжить')
+            break
