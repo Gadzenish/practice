@@ -33,6 +33,21 @@
 #    if word==('Нет') or word==('нет'):
 #        break
 
+#import random
+#s = True
+#print('Добро пожаловать в игру "Русская рулетка"')
+#name = input('Введи своё имя')
+#print("\nНу что же," + name + ",Мы начинаем...")
+#while s:
+#        a = (0,0,0,1,0,0)
+#        shot = random.choice(a)
+#        if shot == 1:
+#            print('Упс,ты погиб')
+#            break
+#        else:
+#            print('Тебе удалось выжить')
+#            break
+
 #print("Формула вычисления Дискриминанта")
 #discriminant = ''
 #a = float(input('Введите значение a:\n'))
@@ -192,17 +207,27 @@
 
 #print(len(set(input('Введите числа:\n').split())))
 
-#import random
-#s = True
-#print('Добро пожаловать в игру "Русская рулетка"')
-#name = input('Введи своё имя')
-#print("\nНу что же," + name + ",Мы начинаем...")
-#while s:
-        #a = (0,0,0,1,0,0)
-        #shot = random.choice(a)
-        #if shot == 1:
-        #    print('Упс,ты погиб')
-        #    break
-        #else:
-        #    print('Тебе удалось выжить')
-        #    break
+#kvadrat=(lambda a:a**2)(2)
+#print(kvadrat)
+#treugolnik=(lambda a,h:1/2*a*h)(5,6)
+#print(treugolnik)
+#krug=(lambda pi,r:pi*(r**2))(4,10)
+#print(krug)
+
+#class Dog():
+#name = ''
+#age = 2
+#def __init__(self,name,age):
+#self.name = name
+#self.age = age
+#def sit(self):
+#print(self.name.title()+'-сейчас сидит')
+#def roll_over(self):
+#print(self.name.title()+'-Перекатывается')
+#def age_plus(self,age_inc):
+#self.age += age_inc
+#print('Моей собаке по имени'+self.name + 'исполнилось' + str(self.age + 'лет')) 
+#my_dog = Dog('Вася Ворон',54)
+#my_dog.roll_over()
+#my_dog.sit()
+#print('Моей собаке,Васе Ворону,-' + str(my_dog.age)+'года')
